@@ -21,10 +21,10 @@ int LM_out = 12;
 
 bool pulse = LOW; 
 
-int motor_delay = 5000;  // The lower the delay, the faster the motor runs.
+int motor_delay = 20000;  // The lower the delay, the faster the motor runs.
 
 void setup() {
-  Serial.begin(9600);
+  // Serial.begin(9600);
   pinMode(ENA, OUTPUT);
   pinMode(DIR, OUTPUT);
   pinMode(PUL, OUTPUT);
